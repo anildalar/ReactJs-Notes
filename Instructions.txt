@@ -1,0 +1,138 @@
+HomePage
+BusinessListing
+BusinessDetail 
+
+
+https://nidhisharma4399.github.io/Justdial.com/
+
+Frontend Static Design Done (HTML5 + CSS3 + BS5 + JS)
+
+Frontend Framework
+  Meta  -> Facebook
+
+	ReactJs		(Facebook)
+	AngularJs	(Google)
+	VueJs		(Mr Evan You)
+
+Google Trends
+
+Single Page Applications
+
+How we can use ReactJs ?
+1. Using CDN Link (Not Recommended)
+2. Using NodeJS command  (Recommended)
+
+	2.1 npm install -g create-react-app (only one time)
+	2.2 npx create-react-app react1 (Old/Depricate)
+	2.3 npm create vite@latest react2 -- --template react  (Newer) 
+
+npx create-react-app react2
+
+npx create-react-app react3
+
+npm = node package manager
+npx = node package execute
+
+
+How to start your reactJs Application ?
+	npm start
+
+
+https://www.w3schools.com/react
+https://react.dev/
+
+
+
+npm install   -> package.json
+
+
+npm create vite@latest my-app -- --template react
+
+npm run dev 
+
+npx create-react-app my-react-app
+
+npm start    ------>  port no 3000
+
+
+
+
+Backend Technology
+	Strapi
+
+
+
+3000 - 5173
+	
+
+Port Range
+0 - 65535
+
+
+HTML Template ----> ReactJs
+
+HomePage
+BusinessListing
+BusinessDetail      -> ReactJs
+
+
+
+JavaScript ES6 (2015)
+
+Let
+Const
+... 
+class A{}
+ES6 Arrow Functions
+
+Facebook ReactJs
+
+
+
+
+
+.html
+.css
+.js
+.png/.jpeg
+
+
+
+.jsx
+
+ReactJs Files
+
+.jsx = XML
+JavaScript Extensible Markup Language
+
+
+
+<div>
+
+</div>
+<header>
+
+</header>
+
+
+Empty Tag
+<>
+</>
+
+
+ReactJs App uses Hot Reloading
+
+<img />      Single Tags
+<div></div> Paired Tags
+
+
+
+Import Export
+
+
+
+
+Variable
+fname="Anil"
+
+
