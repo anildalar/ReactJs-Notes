@@ -128,7 +128,23 @@ ReactJs App uses Hot Reloading
 
 
 Import Export
+CSS Selectors
+1. 
 
+
+How we can include BS5 in ReactJs App.
+
+Reusable UI Components
+Using
+1. Import/Export
+
+
+How to deploy a ReactJs App?
+
+GitHub Pages ?
+
+Netlify
+Vercel
 
 
 
