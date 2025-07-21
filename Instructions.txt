@@ -223,3 +223,99 @@ DRY = Don't Repeat Yourself
 
 React Outlet Component To Follow DRY Principle
 
+I will start todays lecture from scratch ?
+npm create vite@latest react4 -- --template react
+
+
+
+localhost:5173  	-> HomePage
+localhost:5173/first	-> FirstPage
+localhost:5173/second	-> SecondPage
+
+
+What is the entrypoint JS file for ReactJs APP ?
+main.jsx
+
+
+
+<div class="" ></div>
+<Route path="" element={} />
+
+NoPage = 404
+
+How to create a web layout in Reacts ?
+
+1.HomePage
+2.FirstPage
+3.SecondPage
+
+
+
+React UI Libraries
+1. Bootstrap
+2. MUI (Mostly Used)
+3. AntDesign
+
+
+MUI (Mostly Used)
+
+
+<Box>Anil</Box>  ---> <div>Anil</div>
+
+
+
+
+
+
+http://localhost:5173//blogs ----> Blog
+http://localhost:5173/blogs ----> Blog
+
+
+<div attribute="value"></div>  ---> Tag
+<Box props1="" ></Box>  ---> ReactComponents
+
+JS Object
+{ 
+   //1. P:V
+   p:v,
+   p:v
+   //2. Method
+}
+
+
+<input type="checkbox" checked >
+<input type="text" readonly >
+
+React UI Libraries
+1. Bootstrap
+2. MUI (Mostly Used)
+3. AntDesign
+
+
+Basic Web Layout using AntDesign
+
+Setup Basic Web Layout using Outlet Component
+
+
+const [var,SetFunction] = useState(initialValue);
+const [age,setAge]       = useState(30);
+1. Setup a basic web layout containing 3 pages with navigation using MUI In ReactJs?
+
+2. What are Hooks Variable in ReactJs?
+
+
+
+ReactJs
+
+1. JavaScript
+2. TypeScript  --> JavaScript Advanced Version Deveoped by MicroSoft
+
+
+C  --> C++
+
+
+UL parent
+  Li  Child
+
+Menu
+  MenuItem Child
