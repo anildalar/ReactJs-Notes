@@ -319,3 +319,47 @@ UL parent
 
 Menu
   MenuItem Child
+Menu
+  MenuItem Child
+1. React List  ---> HTML List
+2. React Conditionals Rendering
+
+
+Which is the main entry file for React 19 Js ?
+main.jsx
+
+(fa1)=>{ 
+
+}
+
+fa1=>{ 
+
+}
+()=>{ 
+  console.log();
+}
+()=> console.log()
+
+
+1. React Conditionals Rendering
+
+Js Conditional Operators
+JS Comparison Operators
+
+
+Lets use Entry file
+main.jsx ---> COmpletly Blank
+
+
+
+
+1.gender = male
+
+	I am a Male
+2. gender = female
+	I am a Female
+
+1.	JS Ternary Operator
+C ? T : F;
+2. Logical &&
+
