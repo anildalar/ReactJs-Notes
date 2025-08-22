@@ -768,6 +768,336 @@ Ternary Operator
 C ? T : F ;
  
 
+Create a simple create operation using Fetch/AXIOS Library.
+Must Have
+1. More  than 2 fields
+2. Sweet Alert (3rd Party Lib)
+3. MUI   (3rd Party Lib)
+4. Axios (3rd Party Lib)
+6. React Router Dom  One Page --> Second Page
+7. Must have a single Hook Variable
+8. Must have a single HandleChange function
+
+
+
+/
+<Layout>
+	<Home/>
+</Layout>
+
+/blogs
+<Layout>
+	<Blog/>
+</Layout>
+
+/contact
+<Layout>
+	<contact/>
+</Layout>
+
+/askdflaks
+<Layout>
+	<NoPage/>
+</Layout>
+
+
+
+Input --> Event  --> handleChange(e)
+	Focus
+	Blur
+	KeyDown
+	KeyUp
+Anil
+
+A
+
+optional chaining operator
+Which operator is this ?
+?.
+
+??
+How to fetch/get data from server in ReactJs?
+
+useEffect is Hook used for data fetching
+
+addTwoNumber(aa1,aa2);
+useEffect(<function>, <dependency>)
+useEffect(function, array)
+useEffect(function(){}, [])
+useEffect(()=>{}, [])
+
+
+Hooks ?
+Hooks are Some ReactJs Functions
+
+Client Server Architecture
+
+
+Client ---------- Request ------------> Server
+
+Client <--------- Response ------------ Server
+
+ReactJs	----------Request -------------> Strapi
+ReactJs	----------Response 200 --------> Strapi
+
+ReactJs	----------GET Request ---------> Strapi
+ReactJs	----------Reponse 200 ---------> Strapi
+
+[]
+{}
+[{},{}]
+
+Array Of Object
+[{…}, {…}, {…}, {…}, {…}, {…}, {…}]
+
+0
+: 
+{id: 2, documentId: 'm0hr2v6ny2nltxy8d2jr4t6y', fname: 'Anil', lname: 'Dollor', createdAt: '2025-08-04T04:00:13.567Z', …}
+
+
+
+
+Simple CRUD in ReactJS
+1. Create
+2. Read
+3. Update
+4. Delete
+
+CRUD -> REST API
+	Representational State Transfer Application Programming Interface
+
+ReactJs
+	1. ReactRouterDom
+	2. SweetAlert
+	3. ToasterJs
+	4. MUI
+
+1. LoginPage
+2. Register Page
+3. NoPage
+
+Async/Await
+
+Async is Parent /Await is a Child
+
+Promise Chain
+
+
+axios.post(aa1,aa2,aa3);
+axios.post('string',{},{});
+
+Whenever you are calling api CRUD You should use TryCatch Block
+
+
+
+try{}.catch().finally()
+try{}.catch() Block
+
+
+
+
+useEffect Hook Function === After Page Reload
+
+Promise CHain based example of Axios
+
+axios.get('/user?ID=12345').then(()=>{}).catch((error)=>{});
+
+
+Async/Await Bashed example of Axios
+
+{
+    "data": [
+        {
+            "id": 2,
+            "documentId": "qp10dq8cbovt3w4hdyqbvlqh",
+            "category_name": "Restaurants",
+            "icon_url": "https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/restaurant-2022.svg?w=96&q=75",
+            "is_featured": true,
+            "createdAt": "2025-08-07T03:54:05.962Z",
+            "updatedAt": "2025-08-07T03:54:05.962Z",
+            "publishedAt": "2025-08-07T03:54:05.972Z"
+        },
+        {
+            "id": 4,
+            "documentId": "pordggslueau1diwnvg3xds7",
+            "category_name": "Hotels",
+            "icon_url": "https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/hotel-2022.svg?w=96&q=75",
+            "is_featured": true,
+            "createdAt": "2025-08-07T03:54:49.274Z",
+            "updatedAt": "2025-08-07T03:54:49.274Z",
+            "publishedAt": "2025-08-07T03:54:49.282Z"
+        },
+        {
+            "id": 7,
+            "documentId": "lfymgxahe8ou7r2uowxlkyop",
+            "category_name": "Car Hire2",
+            "icon_url": "https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/cabcarrental.svg?w=64&q=75",
+            "is_featured": false,
+            "createdAt": "2025-08-07T03:56:31.381Z",
+            "updatedAt": "2025-08-07T04:22:50.696Z",
+            "publishedAt": "2025-08-07T04:22:50.706Z"
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 3
+        }
+    }
+}
+
+Call API with
+1. Axios Promise Chain 
+2. Axios Async/Await
+3. Fetch API Promise Chain
+4. Fetch API Async/Await
+
+
+
+Prepare Strapi Collection as per JustDial
+Country
+	India
+State
+	MP
+City
+	Neemuch
+BusinessCategory
+	Software Company
+
+BusinessDetails
+	Anil Dollor
+	Dollorinfote
+	9797
+	abalsdjfklj
+
+
+
+
+webp  x
+png   v
+
+ts    x
+mp4
+
+
+
+Country -> State -> City -> 
+
+BusinessCateory  -> BusinessDetails
+
+
+
+
+Get BusinessDetail from City ?
+
+Get Business from Category and City ?
+	Neemuch Software Companies -----> 1. Dollorinfotech. 2. XYZ
+
+Everyone Prepare the POSTMAN Collection for below APIs
+1. Get Country
+2. Get State
+3. Get City
+4. Get BusinessCategory
+5. Get BusinessDetail
+6. Get BusinessDetail by City
+7. Get BusinessDetail by State
+8. Get BusinessDetail by Country
+9. Get BusinessDetail by City and Category (Most IMP API)
+10.Get BusinessDetail Whose Name start with "hello..." by city
+11.Get BusinessDetail By BusinessDetail ID.
+12.Submit Review For BuisnessDetail by JWT
+	12.1 Which User ?
+	12.2 Which BusinessDetail ?
+	12.3 What Rating ? 1-5
+13. Upload BusinessPhoto 
+	13.1 Which User ? JWT
+	13.2 Which BusinessDetail ?
+
+
+
+
+SingleTypes   ---> 
+SysInfo
+AppInfo
+ApplicationInfo
+
+AppInfo
+
+1. Logo
+2. GooglePlayStore Link
+3. AppleAppsStore Link
+4. FB Link
+5. YT Link
+6. Insta Link
+7. LinkedIn Link
+8. X Link
+
+
+	
+Response body
+Download
+
+
+http://localhost:1337/api/app-info?populate=*
+{
+  "data": {
+    "id": 2,
+    "documentId": "xtc1y9vgi19klzjx8z9ddgib",
+    "app_playstore_link": "https://play.google.com/store/apps/details?id=com.justdial.search&pli=1",
+    "app_appstore_link": "https://apps.apple.com/in/app/jd-the-best-local-search-app/id624946027",
+    "fb_link": "https://www.facebook.com/JustDial",
+    "insta_link": "https://www.instagram.com/jd_justdial/#",
+    "yt_link": "https://www.youtube.com/user/justdialind",
+    "linkedin_link": "https://www.linkedin.com/company/justdial/",
+    "x_link": null,
+    "createdAt": "2025-08-12T03:49:13.314Z",
+    "updatedAt": "2025-08-12T03:49:13.314Z",
+    "publishedAt": "2025-08-12T03:49:13.330Z"
+  },
+  "meta": {}
+}
+
+
+RFC 
+React Functional Component
+
+RCC 
+React Class COmponenet
+
+
+Axios Promise Chain based
+Axios Async/Await Based
+
+
+Review System in strapi ?
+
+1. Who is giving Review ?
+2. To Which Business ?
+3. How many Stars ? 1-5
+4. What Review Content ?  Good/Bad
+5. Photo ?
+
+1.Business Category -> http://localhost:5173/
+2.Business Listing  -> http://localhost:5173/business-listing
+3.Business Detail   -> http://localhost:5173/business-detail
+4.Review System
+
+Get Business By BusinessCategoryId
+
+Get Business Whose Name contain "somethig" by CityName Bhopal
+
+https://www.justdial.com/Bhopal/search?q=hello
+
+https://localhost:5173/cityName/search?name=value
+https://localhost:5173/cityName/search?q=hello
+
+
+http://localhost:1337/api/cities?populate=*
+http://localhost:1337/api/businesses?populate=*
+
+Both have name field
 
 
 
