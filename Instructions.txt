@@ -1099,7 +1099,30 @@ http://localhost:1337/api/businesses?populate=*
 
 Both have name field
 
+INput -> Event -> Focus
 
+INput -> Event -> Blur
+
+
+BusinessCategory
+name -> Education
+is_featured  -> true
+order -> 1
+
+name -> Hospital
+icon_url
+is_featured  -> true
+order -> 2
+
+
+What is strapi ?
+CMS -> COntent Management System
+
+/frontend/something
+frontend/something
+
+
+http://localhost:1337/api/business-categories?populate=*&sort=value
 
 
 
