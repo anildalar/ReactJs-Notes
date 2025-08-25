@@ -1103,7 +1103,6 @@ INput -> Event -> Focus
 
 INput -> Event -> Blur
 
-
 BusinessCategory
 name -> Education
 is_featured  -> true
@@ -1114,16 +1113,26 @@ icon_url
 is_featured  -> true
 order -> 2
 
-
 What is strapi ?
 CMS -> COntent Management System
 
 /frontend/something
 frontend/something
 
-
 http://localhost:1337/api/business-categories?populate=*&sort=value
 
+How to detect location ?
+
+HTML5 Geolocation API
+1. Latitude -> Lat -> 24.4560368
+2. Longitude -> Long -> 74.8732056
+3. Zoom Value -> 21z
+
+Lat/Log -> ReverseGeoLocation
+
+mv s d
+
+24.4560368,74.8732056,21z
 
 
 
