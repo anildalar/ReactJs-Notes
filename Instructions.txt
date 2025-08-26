@@ -1134,7 +1134,87 @@ mv s d
 
 24.4560368,74.8732056,21z
 
+Lets create a Frontend ReactJS Application Docker Container
 
+We are installing ReactJs Application directly on Host Machine
+
+
+npm run dev -- --host 0.0.0.0
+
+docker image build -f Dockerfile.reactjs -t oklabs/image:tag1 .
+
+
+# -------------------
+# Stage 1: Build
+# -------------------
+FROM node:20 AS build
+
+# Set working directory
+WORKDIR /app
+
+# Copy package.json and lock file first (better caching)
+COPY frontend/package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy project files
+COPY frontend/ .
+
+# Build the React app
+RUN npm run build
+
+# -------------------
+# Stage 2: Run (Nginx)
+# -------------------
+FROM nginx:stable-alpine
+
+# Remove default Nginx static files
+RUN rm -rf /usr/share/nginx/html/*
+
+# Copy built React app from build stage
+COPY --from=build /app/dist /usr/share/nginx/html
+
+# Copy custom nginx config (optional)
+# COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Expose port 80
+EXPOSE 80
+
+# Start Nginx
+CMD ["nginx", "-g", "daemon off;"]
+
+
+
+FROM node:20
+
+# Set working directory
+WORKDIR /app
+
+# Copy package.json and install deps
+COPY frontend/package*.json ./
+RUN npm install
+
+# Copy project files
+COPY frontend/ .
+
+# Build React app
+RUN npm run build
+
+# Install nginx
+RUN apt-get update && apt-get install -y nginx && rm -rf /var/lib/apt/lists/*
+
+# Remove default nginx static files
+RUN rm -rf /var/www/html/*
+
+# Copy build files into nginx webroot
+RUN cp -r dist/* /var/www/html/
+
+# Expose port 80
+EXPOSE 80
+
+# Run nginx in foreground
+CMD ["nginx", "-g", "daemon off;"]
 
 
 
