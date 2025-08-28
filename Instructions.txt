@@ -1170,6 +1170,33 @@ mv s d
 
 
 24.4560368,74.8732056,21z
+--------------------------------------------------------
+How to create a multilingual App in Reacts ?
+
+internationalization/multilingual 
+
+https://react.i18next.com/
+
+
+2 Repos 
+1. Frontend
+2. Backend Repo
+
+How you can manage multiple repos in git ?
+Git Submodule
+
+parent
+	child1 -> frontend -> ReactJs
+	child2 -> Backend  -> Strapi
+
+
+
+ISO 639-1 standard Code
+
+Hindi -> hi
+English -> en
+Germen ->  de
+Language 2 digit ISO COde
 
 
 
