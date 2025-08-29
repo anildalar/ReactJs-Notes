@@ -1198,5 +1198,38 @@ English -> en
 Germen ->  de
 Language 2 digit ISO COde
 
+npm run build
+npm run console
+npm run deploy
+npm run dev    	----> strapi develop
+npm run develop ----> strapi develop
 
+
+
+
+
+i18next   ----> t()
+
+
+1. Define   function t(){}
+2. Calling
+
+
+
+object.method('actualArgument');
+i18next.t('mykey');
+jsobject.t('my.key')
+
+en
+key 		value
+restaurant ->   Restaurant
+
+
+google input tool download
+google input tool download for windows 10
+
+
+https://archive.org/download/google-input-tools
+ + Sift
+अनिल डालर
 
