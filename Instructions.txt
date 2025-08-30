@@ -1233,3 +1233,9 @@ https://archive.org/download/google-input-tools
  + Sift
 अनिल डालर
 
+{
+
+	P:V
+	"P":V
+	'P':V
+}
