@@ -1239,3 +1239,35 @@ https://archive.org/download/google-input-tools
 	"P":V
 	'P':V
 }
+
+
+
+
+If you have multiple records in your backend system
+How you will show on frontend ?
+
+
+1. Infinite Scoll
+	Justdial,amazon
+2. Pagination
+	Flipkart,
+
+Array Of Objects
+
+[{}]
+
+ul = Unorded List = Parent
+li = List Item    = Child
+
+
+
+businessListing=[];
+
+What DataType of businessListing variable ?
+
+
+object.member
+1. object.property
+2. object.method()
+cv.name
+. is a member selection operator
