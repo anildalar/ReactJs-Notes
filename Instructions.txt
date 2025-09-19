@@ -1271,3 +1271,236 @@ object.member
 2. object.method()
 cv.name
 . is a member selection operator
+
+?pagination[page]=1&pagination[pageSize]=10
+
+
+
+How to check the percentage amount of vertical scroll on a web page
+
+
+
+
+
+{
+	
+}
+
+BusinessListingInfiniteScroll.jsx
+BusinessListingPagination.jsx
+
+
+100 Pages
+
+Prev	1	2	3	4	Next
+
+
+First Prev	50	51	52	53	Next Last
+
+
+Industry Standard
+
+1. ReactJs Frontend Engineers
+	Typescript
+	Statemanagement Library
+				Redux
+Knowledge of TypeScript, Redux
+
+2. NextJs Backend Fullstack Framework
+3. DevOps
+4. Blockchain
+
+How to manage app/componenet data/state globally ?
+1. useContext Hook (Built-in).
+	
+	Prop Drilling
+
+	A<-- Send Data  "Anil"
+		B
+			C
+				D--> Get Data  -> Hello, Anil
+
+Problem
+Solution		
+
+2. Redux (3rd Party Library).
+
+How to share you data globally in react App.
+
+You have multiple pages.
+
+1. Prop Drilling
+	AA<-- Send Data from Parent Compoent
+		BB
+			CC--> Recieve Data from Deep Child component
+
+2. useContext (Built-in Function in react Library)
+3. Redux (3rd Party Lib)
+
+	Redux have a Store Object
+	
+	let store = {
+		    	P:V,
+			methods()
+		    }
+
+
+
+https://www.justdial.com/Gwalior/Event-Organizers-in-Lala-Ka-Bazar-Road-Dholi-Bua-Ka-Pul/nct-10194150?q=hotels
+
+protocol/subdomain.primarydomain.tld/firstsegment/secondsegment/thirdsegment?name1=value1&name2=value2&name3=value3
+
+tld = Top Level Domain
+
+
+Category Vs Tags
+
+
+
+
+What is Redux ?
+Redux is a JS Library to manage state/data of your application
+1. ReactJs
+2. Angular
+3. VueJs
+
+What are the element of Redux ?
+What are the component of Redux Architecture ?
+1. Store Object  ---> store.js
+
+	JS Object
+		{
+			1. P:V
+			2. Methods
+		}
+
+2. Action are some methods/Functions
+3. Reducer are some methods/Functions
+4. UI Component
+
+
+Store → State → Actions → Reducers → Dispatch → Selector → Provider
+
+
+What is provider in Redux ?
+main.jsx
+
+<Provider store={reduxStoreObject}>
+	<App />
+<Provider>
+
+
+Standard Location to put store.js
+src/store/store.js
+src/redux/store.js
+src/app/store.js
+
+Nonstandard Location to put store.js
+
+src/store.js
+store.js
+
+
+"react-redux"  ----> <Provider>
+
+
+{
+  name: "user",
+  initialState,
+  reducers: {}
+}
+
+Redux Day 2
+
+
+Store Logged-In User data in Redux Store.
+
+A Reducer function accept old state and action and return
+New State
+
+function reducer(oldState,action){
+	//action.type
+	return newState;
+}
+
+useSelector is a function to access current redux state.
+
+
+dispatch(action)
+
+
+What is an Action in Redux.
+
+{
+	type:"SomeAction",
+	p1:v1,
+	p2:v2,...
+}
+
+What is an Action Creators in Redux ?
+
+Explain Redux Architecture ?
+1. Store Object
+2. Action
+3. Action Creators
+4. Reducers
+
+What is action ?
+
+Actions are JS Object which have a type property and payload information
+
+
+let x ={
+	name:"Anil"
+}
+
+let y = {
+	//1. P:V
+	type:"ChangeMyName",
+	name:"Anil",
+	surname:"Dollor"
+}
+
+What is an Action Creators in Redux ?
+
+let o1 = { course:"Frontend" }
+let o2 = { type:"courseNames",course:"Frontend" }
+
+Action Create are some function which return Action Objet
+
+
+
+
+function actionCreator1(){
+	
+	//Every function return sometion
+	return o2;
+}
+
+function actionCreator2(){
+	
+	//Every function return sometion
+	return { 
+		type:"courseNames",
+		course:"DevOps" 
+	 };
+}
+
+OldState ---> NewState
+Anil    ----> Chitransh
+
+Button -> ChangeMyName
+
+Reducer 
+OldState ---> NewState
+Anil  ------> Chitraasnsh
+
+Where to put your redux store object ?
+
+Standard Location to put store.js
+src/store/store.js
+src/redux/store.js
+src/app/store.js
+
+StoreObject =>JS Object
+
