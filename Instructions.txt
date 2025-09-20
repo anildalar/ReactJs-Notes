@@ -1504,3 +1504,42 @@ src/app/store.js
 
 StoreObject =>JS Object
 
+
+https://docs.google.com/presentation/d/1Tuf0HkEjN94dGBNvk_arh3d_DewQP17_ZC0nyePr9s8/edit?slide=id.gcc73200de1_0_64#slide=id.gcc73200de1_0_64
+
+Redux
+
+
+UI 
+
+ReduxStore
+Anil   		-> Change to  -> Sunil
+
+Explain Redux Architecture ?
+1. Store Object (Centralized object)
+2. Action are JS object which have type property and some payload
+	{
+		type:"changeMyName",
+		payload:"Sunil"
+	}
+3. Action Creators
+	Are some function which return action object
+	
+	let actionCreator = ()=>{
+				
+					return {
+						type:"changeMyName",
+						payload:"Sunil"
+					}
+
+			       }
+	
+4. Reducers
+	Are some function with accept oldState,action and return newState
+
+	let reducer1 = (oldState,action)=>{ 
+				return newState
+			}
+	let reducer1 = ("Anil",action)=>{ 
+				return "Sunil"
+			}
